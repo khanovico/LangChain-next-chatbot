@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-langchain-edge",
+  "name": "langchain-next-chatbot",
   "version": "0.1.0",
   "private": true,
   "scripts": {

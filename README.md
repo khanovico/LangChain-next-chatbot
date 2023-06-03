@@ -1,11 +1,8 @@
-# Next.js Multi-User Chatbot with LangChainAI and Pinecone
+# LangChain for Web-Chatbot on Next.js
 
-
-[![Watch the video](https://i9.ytimg.com/vi_webp/hbFuBZ7LUZY/maxresdefault.webp?v=647d1366&sqp=CPTTg6QG&rs=AOn4CLDZ9sAyvdFjiSmF1iTJNphT8jJeXA)](https://youtu.be/hbFuBZ7LUZY)
-
-### Credit to: **Roie Schwaber-Cohen** from Pinecone. Please check out this beautiful article: [Building a Multi-User Chatbot with Langchain and Pinecone in Next.JS](https://www.pinecone.io/learn/javascript-chatbot/)
 
 ## Services used in this app
+- LangChain
 - Pinecone
 - Supabase
 - clerk
@@ -13,12 +10,12 @@
 # **Setup**
 ## 1. Clone this repository
 ```
-git clone https://github.com/tarikrazine/multi-User-Chatbot-langChain-pinecone.git
+git clone https://github.com/khanovico/LangChain-next-chatbot
 ```
 
 ## 2. Install dependencies
 ```
-cd multi-User-Chatbot-langChain-pinecone
+cd LangChain-next-chatbot
 yarn
 ```
 
@@ -41,7 +38,7 @@ mv .env.example .env
 - Create a new project
 
 ## 7. Supabase and Clerk walkthrough
-- To properly use Supabase and Clerk, this article will help you understand how these two services work together: [NextJS + Supabase + Clerk: Build a simple todo app with multifactor authentication](https://clerk.com/blog/nextjs-supabase-todos-with-multifactor-authentication)
+- You need to be familiar with Supabase and Clerk to access to full control of this project.
 
 ## 8. Add your keys to the .env
 ```
@@ -58,11 +55,6 @@ CLERK_SECRET_KEY=
 ## 9. Start the project
 ```
 yarn dev
-```
-
-## 10. Deploy to vercel
-```
-Soon
 ```
 
 ### - **I'm thinking of rebuilding the UI very soon, so keep an eye out! 👀**
