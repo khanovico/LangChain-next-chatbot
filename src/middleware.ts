@@ -2,7 +2,6 @@ import { authMiddleware } from "@clerk/nextjs";
 
 const publicPages = [
   "/api/chat",
-  // (/secret requires auth)
 ];
 
 // Case i18n
